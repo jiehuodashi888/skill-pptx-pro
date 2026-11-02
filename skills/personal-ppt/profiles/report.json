@@ -1,0 +1,9 @@
+{
+  "id": "report",
+  "label": "工作汇报",
+  "extends": "general",
+  "audience": "Decision makers and stakeholders",
+  "objective": "Explain progress, deviations and decisions needed",
+  "sections": ["Executive conclusion", "Goals and actual results", "Evidence and variance", "Risks", "Next steps and decisions"],
+  "acceptance": ["Separate actual results from targets", "Identify owners where supplied", "State requested decisions explicitly"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "learning-sharing",
+  "label": "学习分享",
+  "extends": "general",
+  "audience": "Peers learning a topic",
+  "objective": "Build understanding and enable practical application",
+  "sections": ["Learning objective", "Motivating problem", "Core concepts", "Worked example", "Discussion or practice", "Takeaways"],
+  "acceptance": ["Define unfamiliar terms", "Explain the example step by step", "Match depth to prior knowledge"]
+}

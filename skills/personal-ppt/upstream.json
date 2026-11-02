@@ -1,0 +1,9 @@
+{
+  "personal_version": "0.2.0",
+  "repository": "https://github.com/hugohe3/ppt-master",
+  "commit": "5e8856be0da8e6bc85c4aa28acc614478f7b7137",
+  "engine_version": "6.8.0",
+  "engine_sibling": "ppt-master",
+  "license": "MIT",
+  "compatibility": "Local verification only; GLM and intranet OpenCode unverified"
+}

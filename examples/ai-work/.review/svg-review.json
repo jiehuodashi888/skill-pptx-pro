@@ -1,0 +1,321 @@
+{
+  "schema": "personal-ppt.svg-visual-review.v1",
+  "scope": "8 SVG preview PNGs individually opened and visually inspected; this is not exported PPTX render verification",
+  "static_gate": {
+    "passed": 8,
+    "warnings": 0,
+    "errors": 0,
+    "report": "validation/svg_quality_report.json"
+  },
+  "summary": {
+    "pages": 8,
+    "hard_hits": 0,
+    "soft_hits": 1,
+    "fixes_applied": 0,
+    "status": "passed_after_fix",
+    "original_soft_hits": 1,
+    "unresolved_soft_hits": 0
+  },
+  "pages": [
+    {
+      "page": "01_cover.svg",
+      "page_role": "cover",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/01_cover.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 0,
+      "fixes_applied": 0,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "深蓝封面白字标题完整，两行主标题和两行主张有明确间隔；页脚、页码可读，未见裁切或遮挡。"
+      },
+      "visual_observation": "深蓝封面白字标题完整，两行主标题和两行主张有明确间隔；页脚、页码可读，未见裁切或遮挡。"
+    },
+    {
+      "page": "02_tasks.svg",
+      "page_role": "content",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/02_tasks.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 0,
+      "fixes_applied": 0,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "三行任务标题和说明逐行对齐，分隔线未穿过文字；底部判断与数据环境说明完整且与页脚分离。"
+      },
+      "visual_observation": "三行任务标题和说明逐行对齐，分隔线未穿过文字；底部判断与数据环境说明完整且与页脚分离。"
+    },
+    {
+      "page": "03_workflow.svg",
+      "page_role": "content",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/03_workflow.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 0,
+      "fixes_applied": 0,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "五个步骤圆点均匀分布，连线在圆点后方；五组标题与说明可读，下方核验条件和返回调整说明完整。"
+      },
+      "visual_observation": "五个步骤圆点均匀分布，连线在圆点后方；五组标题与说明可读，下方核验条件和返回调整说明完整。"
+    },
+    {
+      "page": "04_prompt.svg",
+      "page_role": "content",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/04_prompt.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 1,
+      "fixes_applied": 0,
+      "findings": [
+        {
+          "iter": 1,
+          "rule": "S4",
+          "severity": "soft",
+          "evidence": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。",
+          "fix_applied": null,
+          "suggested_fix_summary": "将 #components 五个text的y统一为239、303、367、431、495，与右侧示例逐行配对。"
+        }
+      ],
+      "untouched_concerns": [
+        {
+          "rule": "S4",
+          "evidence": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。",
+          "reason": "read-only review task; coordinator applies atomic position changes"
+        }
+      ],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。"
+      },
+      "visual_observation": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。",
+      "resolution": {
+        "status": "resolved",
+        "fixed_by": "main agent",
+        "change": "Both columns now use baselines 238,318,398,478,558.",
+        "svg_reverification": "Main agent reports re-rendered SVG visually verified.",
+        "native_pptx_reverification": {
+          "status": "passed",
+          "reviewer": "review_sample",
+          "image": "powerpoint-render/slide-04.png",
+          "sha256": "81cde0e1eb22e8e31c65527b9b25ec01046a945cdd305fbee269a345d3389316",
+          "note": "原S4错位已消失：五项标签与五条示例逐行对应，任务到验收标准保持一致行距；右侧最后一行仍在浅蓝容器内，未见溢出。"
+        }
+      }
+    },
+    {
+      "page": "05_comparison.svg",
+      "page_role": "content",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/05_comparison.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 0,
+      "fixes_applied": 0,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "左右对照清楚，右侧明确请求得到更大版面；事实边界、缺失项及非效果测评说明均可读，区域内留白足够。"
+      },
+      "visual_observation": "左右对照清楚，右侧明确请求得到更大版面；事实边界、缺失项及非效果测评说明均可读，区域内留白足够。"
+    },
+    {
+      "page": "06_review.svg",
+      "page_role": "content",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/06_review.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 0,
+      "fixes_applied": 0,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "四项核验组成规则2×2布局，编号与标题分离，正文未碰相邻列；底部责任说明完整可见。"
+      },
+      "visual_observation": "四项核验组成规则2×2布局，编号与标题分离，正文未碰相邻列；底部责任说明完整可见。"
+    },
+    {
+      "page": "07_trial.svg",
+      "page_role": "content",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/07_trial.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 0,
+      "fixes_applied": 0,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "两周标题及正文按相同行基线排列，底部分隔线、质量条件和建议安排说明层级清楚，无内容裁切。"
+      },
+      "visual_observation": "两周标题及正文按相同行基线排列，底部分隔线、质量条件和建议安排说明层级清楚，无内容裁切。"
+    },
+    {
+      "page": "08_action.svg",
+      "page_role": "closing",
+      "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+      "canvas": {
+        "view_box": [
+          0,
+          0,
+          1280,
+          720
+        ],
+        "width": 1280,
+        "height": 720,
+        "png_width": 1280,
+        "png_height": 720
+      },
+      "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+      "status": "ok",
+      "iterations_run": 1,
+      "screenshot_paths": [
+        ".preview/08_action.png"
+      ],
+      "hard_hits": 0,
+      "soft_hits": 0,
+      "fixes_applied": 0,
+      "findings": [],
+      "untouched_concerns": [],
+      "needs_human_items": [],
+      "design_intent_check": {
+        "render_delivers": true,
+        "note": "两行行动标题明确，四种保留记录和再次检查要求完整；深蓝背景白字可读，页脚与正文间距充足。"
+      },
+      "visual_observation": "两行行动标题明确，四种保留记录和再次检查要求完整；深蓝背景白字可读，页脚与正文间距充足。"
+    }
+  ]
+}

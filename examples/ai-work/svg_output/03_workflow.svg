@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F7F9FC"/>
+<g id="title" data-pptx-bounds="64 48 1152 92" fill="#172B4D" font-size="44" font-weight="bold"><text x="64" y="104">一次完整的协作流程</text></g>
+<g id="steps" data-pptx-bounds="64 210 1152 220" fill="#172B4D">
+<line x1="105" y1="270" x2="1105" y2="270" stroke="#C7D3E3" stroke-width="3"/>
+<g><circle cx="105" cy="270" r="30" fill="#2463EB"/><text x="105" y="279" text-anchor="middle" font-size="24" fill="#FFFFFF">1</text><text x="64" y="353">明确任务</text><text x="64" y="398" font-size="20" fill="#53657D">要完成什么</text></g>
+<g><circle cx="355" cy="270" r="30" fill="#2463EB"/><text x="355" y="279" text-anchor="middle" font-size="24" fill="#FFFFFF">2</text><text x="300" y="353">提供材料</text><text x="300" y="398" font-size="20" fill="#53657D">依据在哪里</text></g>
+<g><circle cx="605" cy="270" r="30" fill="#2463EB"/><text x="605" y="279" text-anchor="middle" font-size="24" fill="#FFFFFF">3</text><text x="548" y="353">生成草稿</text><text x="548" y="398" font-size="20" fill="#53657D">按要求组织</text></g>
+<g><circle cx="855" cy="270" r="30" fill="#2463EB"/><text x="855" y="279" text-anchor="middle" font-size="24" fill="#FFFFFF">4</text><text x="798" y="353">人工核验</text><text x="798" y="398" font-size="20" fill="#53657D">逐项查依据</text></g>
+<g><circle cx="1105" cy="270" r="30" fill="#2463EB"/><text x="1105" y="279" text-anchor="middle" font-size="24" fill="#FFFFFF">5</text><text x="1048" y="353">保存方法</text><text x="1048" y="398" font-size="20" fill="#53657D">留待下次复用</text></g>
+</g>
+<g id="review-rule" data-pptx-bounds="64 480 1152 126" fill="#172B4D"><rect x="64" y="480" width="1152" height="126" fill="#EAF0FC"/><text x="92" y="530" font-size="34" font-weight="bold">核验通过后才能交付</text><text x="92" y="579">未通过：回到材料与要求，调整后重新生成</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 654 1152 34" fill="#53657D" font-size="20"><text x="64" y="678">工作流程</text><text x="1180" y="678">03</text></g>
+</svg>

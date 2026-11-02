@@ -1,0 +1,49 @@
+{
+  "page": "04_prompt.svg",
+  "page_role": "content",
+  "page_role_source": "design_spec.md §IX cover/closing impact; other pages content",
+  "canvas": {
+    "view_box": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "width": 1280,
+    "height": 720,
+    "png_width": 1280,
+    "png_height": 720
+  },
+  "canvas_source": "SVG root and PNG IHDR; renderer stdout record was not passed to reviewer",
+  "status": "ok",
+  "iterations_run": 1,
+  "screenshot_paths": [
+    ".preview/04_prompt.png"
+  ],
+  "hard_hits": 0,
+  "soft_hits": 1,
+  "fixes_applied": 0,
+  "findings": [
+    {
+      "iter": 1,
+      "rule": "S4",
+      "severity": "soft",
+      "evidence": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。",
+      "fix_applied": null,
+      "suggested_fix_summary": "将 #components 五个text的y统一为239、303、367、431、495，与右侧示例逐行配对。"
+    }
+  ],
+  "untouched_concerns": [
+    {
+      "rule": "S4",
+      "evidence": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。",
+      "reason": "read-only review task; coordinator applies atomic position changes"
+    }
+  ],
+  "needs_human_items": [],
+  "design_intent_check": {
+    "render_delivers": true,
+    "note": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。"
+  },
+  "visual_observation": "左右五项语义一一对应，但左列行距80px、右列64px，越往下越错位；验收标准左基线558，右对应示例495，相差63px。文字本身无溢出和遮挡。"
+}

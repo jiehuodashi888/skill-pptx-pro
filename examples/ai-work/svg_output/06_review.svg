@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F7F9FC"/>
+<g id="title" data-pptx-bounds="64 48 1152 92" fill="#172B4D" font-size="44" font-weight="bold"><text x="64" y="104">交付前的四项核验</text></g>
+<g id="numbers" data-pptx-bounds="64 180 540 156" fill="#172B4D"><text x="64" y="224" font-size="24" fill="#2463EB">01</text><text x="130" y="226" font-size="34" font-weight="bold">数字对应原文</text><text x="130" y="288">核对数值、单位和时间范围</text></g>
+<g id="evidence" data-pptx-bounds="660 180 556 156" fill="#172B4D"><text x="660" y="224" font-size="24" fill="#2463EB">02</text><text x="726" y="226" font-size="34" font-weight="bold">结论有依据</text><text x="726" y="288">找到支持判断的材料</text></g>
+<g id="unknowns" data-pptx-bounds="64 370 540 156" fill="#172B4D"><text x="64" y="414" font-size="24" fill="#2463EB">03</text><text x="130" y="416" font-size="34" font-weight="bold">遗漏和未知可见</text><text x="130" y="478">待确认信息明确标出</text></g>
+<g id="format" data-pptx-bounds="660 370 556 156" fill="#172B4D"><text x="660" y="414" font-size="24" fill="#2463EB">04</text><text x="726" y="416" font-size="34" font-weight="bold">格式可以使用</text><text x="726" y="478">核对表头、顺序和必填项</text></g>
+<g id="responsibility" data-pptx-bounds="64 564 1152 60" fill="#2463EB"><text x="64" y="602">使用者对最终交付负责；未通过时返回修订。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 654 1152 34" fill="#53657D" font-size="20"><text x="64" y="678">结果核验</text><text x="1180" y="678">06</text></g>
+</svg>

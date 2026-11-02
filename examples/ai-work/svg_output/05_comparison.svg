@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F7F9FC"/>
+<g id="title" data-pptx-bounds="64 48 1152 92" fill="#172B4D" font-size="44" font-weight="bold"><text x="64" y="104">同一任务的两种表达</text></g>
+<g id="vague" data-pptx-bounds="64 190 440 368" fill="#172B4D"><text x="64" y="236" font-size="34" font-weight="bold">模糊请求</text><text x="64" y="320">“帮我总结会议。”</text><text x="64" y="421" font-size="20" fill="#53657D"><tspan x="64" dy="0">用途、格式和完成标准都未明确。</tspan><tspan x="64" dy="36">结果是否可用，难以逐项判断。</tspan></text></g>
+<g id="specific" data-pptx-bounds="550 190 666 368" fill="#172B4D"><rect x="550" y="190" width="666" height="368" fill="#EAF0FC"/><text x="582" y="236" font-size="34" font-weight="bold" fill="#2463EB">明确请求</text><text x="582" y="310"><tspan x="582" dy="0">按待办用途整理会议记录。</tspan><tspan x="582" dy="52">列出事项、负责人、截止时间。</tspan><tspan x="582" dy="52">只用记录中的事实。</tspan><tspan x="582" dy="52">缺失项标为“待确认”。</tspan></text></g>
+<g id="qualification" data-pptx-bounds="64 582 1152 40" fill="#53657D" font-size="20"><text x="64" y="610">示例对照，不是模型效果测评。明确要求，是为了让结果更容易检查。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 654 1152 34" fill="#53657D" font-size="20"><text x="64" y="678">表达对照</text><text x="1180" y="678">05</text></g>
+</svg>

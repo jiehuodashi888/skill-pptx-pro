@@ -1,0 +1,10 @@
+{
+  "id": "retrospective",
+  "label": "复盘总结",
+  "extends": "general",
+  "audience": "Participants and owners of follow-up actions",
+  "objective": "Explain what happened, distinguish evidence from interpretation, and agree improvements",
+  "sections": ["Goal and baseline", "Observed outcome", "Timeline and contributing factors", "Lessons", "Actions and verification"],
+  "required_evidence": ["Cite observed events and results", "Label uncertain causes as hypotheses", "Do not invent owners or deadlines"],
+  "acceptance": ["Separate observation, interpretation and action", "Keep outcome units and comparison periods", "Name unresolved evidence gaps"]
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F7F9FC"/>
+<g id="title" data-pptx-bounds="64 48 1152 92" fill="#172B4D" font-size="44" font-weight="bold"><text x="64" y="104">适合先尝试的任务</text></g>
+<g id="summary" data-pptx-bounds="64 152 1152 65" fill="#2463EB"><text x="64" y="190">优先选择有材料、有标准、可复核的工作</text></g>
+<g id="task-summary" data-pptx-bounds="64 244 1152 83" fill="#172B4D"><text x="64" y="288" font-size="34" font-weight="bold">材料归纳</text><text x="360" y="286">整理已有信息，保留原文中的事实与限定</text><line x1="64" y1="323" x2="1216" y2="323" stroke="#C7D3E3"/></g>
+<g id="task-draft" data-pptx-bounds="64 344 1152 83" fill="#172B4D"><text x="64" y="388" font-size="34" font-weight="bold">初稿整理</text><text x="360" y="386">形成可修改的草稿，再由使用者判断取舍</text><line x1="64" y1="423" x2="1216" y2="423" stroke="#C7D3E3"/></g>
+<g id="task-format" data-pptx-bounds="64 444 1152 83" fill="#172B4D"><text x="64" y="488" font-size="34" font-weight="bold">格式转换</text><text x="360" y="486">按既定要求重排，检查信息是否完整</text></g>
+<g id="boundary" data-pptx-bounds="64 558 1152 70" fill="#53657D" font-size="20"><text x="64" y="584">没有参考答案的判断，需要谨慎处理。</text><text x="64" y="616">数据仅在获准的环境中使用。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 654 1152 34" fill="#53657D" font-size="20"><text x="64" y="678">任务选择</text><text x="1180" y="678">02</text></g>
+</svg>

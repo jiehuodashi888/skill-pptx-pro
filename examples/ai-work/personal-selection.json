@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "profile": {
+    "id": "general",
+    "label": "通用演示",
+    "audience": "Determine from the current request",
+    "objective": "Communicate a supported central message",
+    "sections": [
+      "Context",
+      "Main message",
+      "Evidence",
+      "Implications",
+      "Next steps"
+    ],
+    "required_evidence": [
+      "Trace factual claims to supplied material",
+      "Label assumptions and missing data"
+    ],
+    "acceptance": [
+      "One primary message per page",
+      "Retain units and source context",
+      "Adapt the sequence to the audience"
+    ],
+    "density": "balanced"
+  },
+  "style": {
+    "id": "clean",
+    "label": "清爽专业",
+    "palette": {
+      "background": "F7F9FC",
+      "text": "172B4D",
+      "accent": "2463EB",
+      "muted": "53657D"
+    },
+    "font_preferences": [
+      "Microsoft YaHei",
+      "Noto Sans CJK SC",
+      "Arial"
+    ],
+    "density": "balanced",
+    "layout_hints": [
+      "Generous margins",
+      "Strong title hierarchy",
+      "Use charts for comparisons",
+      "Vary page composition with content"
+    ],
+    "constraints": "Resolve installed fonts before rendering. This is a style brief, not an upstream template workspace."
+  },
+  "policy": {
+    "external_services": false,
+    "adaptation": "style-guided-redesign",
+    "editable_text": true,
+    "data_backed_charts_when_requested": true
+  }
+}

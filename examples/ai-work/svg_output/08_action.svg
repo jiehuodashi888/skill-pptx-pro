@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="ending">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#172B4D"/>
+<g id="title" data-pptx-bounds="64 126 1152 210" fill="#FFFFFF" font-size="64" font-weight="bold"><text x="64" y="206"><tspan x="64" dy="0">从一个重复任务开始</tspan><tspan x="64" dy="96">完成一次可核验的交付</tspan></text></g>
+<g id="records" data-pptx-bounds="64 400 1152 160" fill="#FFFFFF"><text x="64" y="448">保留输入、提示词、核验记录和最终版本</text><text x="64" y="524" font-size="34">下一次复用时，仍需检查。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 622 1152 40" fill="#FFFFFF" font-size="20"><text x="64" y="648">通用工作方法 · 原创演示案例</text><text x="1180" y="648">08</text></g>
+</svg>

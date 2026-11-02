@@ -1,0 +1,10 @@
+{
+  "id": "technical-solution",
+  "label": "技术方案",
+  "extends": "general",
+  "audience": "Technical reviewers and decision owners identified by the current request",
+  "objective": "Make requirements, options, trade-offs and verification criteria explicit",
+  "sections": ["Problem and constraints", "Options", "Recommended design", "Risks and trade-offs", "Implementation and acceptance"],
+  "required_evidence": ["Trace requirements to local sources", "Distinguish confirmed constraints from assumptions", "Provide comparison criteria and unresolved questions"],
+  "acceptance": ["State the decision needed", "Keep architecture relationships editable where supported", "Define observable acceptance criteria"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "editorial",
+  "label": "暖色编辑风",
+  "palette": {"background": "FAF6EE", "text": "272D2A", "accent": "B44F32", "muted": "6A7168"},
+  "font_preferences": ["Microsoft YaHei", "Noto Sans CJK SC", "Arial"],
+  "density": "balanced",
+  "layout_hints": ["Prominent takeaway headlines", "Asymmetric text and evidence compositions", "Warm restrained accents", "Avoid repeating identical cards"],
+  "constraints": "Resolve installed fonts before rendering. This is a style brief, not an upstream template workspace."
+}

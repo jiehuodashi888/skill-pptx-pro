@@ -1,0 +1,173 @@
+{
+  "schema": "personal-ppt.powerpoint-visual-review.v1",
+  "status": "passed",
+  "review_method": "Individually opened all 8 native PowerPoint PNGs with view_image and inspected actual visible content; hashes independently recomputed.",
+  "renderer": "Microsoft PowerPoint",
+  "renderer_version": "16.0",
+  "manifest": "powerpoint-render/render-manifest.json",
+  "pptx_sha256": "d210ab9b5a5b551d357d5430530fc81020fac5a2db46f17fd6f6f71a9217abbb",
+  "matched_pptx_paths": [
+    "exports/AI工作方法-通用演示.pptx"
+  ],
+  "summary": {
+    "reviewed": 8,
+    "passed": 8,
+    "hard_hits": 0,
+    "soft_hits": 0
+  },
+  "limitations": "Visual verification applies to this exact PPTX and these Microsoft PowerPoint 16.0 renders; does not establish rendering equivalence in other office suites.",
+  "pages": [
+    {
+      "file": "slide-01.png",
+      "sha256": "3532219fb81f7362c16b4a7a49b922bd6f3e56de57a322a8006de167120e96ff",
+      "page": 1,
+      "png_sha256": "3532219fb81f7362c16b4a7a49b922bd6f3e56de57a322a8006de167120e96ff",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "主标题保持两行，副标题两行，中文清晰；深蓝背景、白字及页码完整，未见边缘裁切。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    },
+    {
+      "file": "slide-02.png",
+      "sha256": "5c028ec8a407a9fd9c048956df51355f60d891da7c1106b26205b26f1b02bb5e",
+      "page": 2,
+      "png_sha256": "5c028ec8a407a9fd9c048956df51355f60d891da7c1106b26205b26f1b02bb5e",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "三行任务与说明齐整，段落无意外换行；底部边界说明完整，分隔线不穿文字。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    },
+    {
+      "file": "slide-03.png",
+      "sha256": "78b9489d47f1e885f47b2bbe9052389dcf8171bff22026cd7e4eaee73be6745f",
+      "page": 3,
+      "png_sha256": "78b9489d47f1e885f47b2bbe9052389dcf8171bff22026cd7e4eaee73be6745f",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "五步顺序完整，数字居中于圆点；步骤标题、注释和核验提示无碰撞，中文无缺字。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    },
+    {
+      "file": "slide-04.png",
+      "sha256": "81cde0e1eb22e8e31c65527b9b25ec01046a945cdd305fbee269a345d3389316",
+      "page": 4,
+      "png_sha256": "81cde0e1eb22e8e31c65527b9b25ec01046a945cdd305fbee269a345d3389316",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "原S4错位已消失：五项标签与五条示例逐行对应，任务到验收标准保持一致行距；右侧最后一行仍在浅蓝容器内，未见溢出。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    },
+    {
+      "file": "slide-05.png",
+      "sha256": "b903e3c2071c52407bc069a1edcd8592ca07c0c9172bdadfcd776a7f1681721c",
+      "page": 5,
+      "png_sha256": "b903e3c2071c52407bc069a1edcd8592ca07c0c9172bdadfcd776a7f1681721c",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "两列内容完整，明确请求四行和免责声明保留；引号及中文标点正常显示，无额外断行。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    },
+    {
+      "file": "slide-06.png",
+      "sha256": "69c1638210294c04fb758b69da33e28de530a812080e9686e9f8e7da45b512c9",
+      "page": 6,
+      "png_sha256": "69c1638210294c04fb758b69da33e28de530a812080e9686e9f8e7da45b512c9",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "四项标题与正文完整，规则两列对齐；序号、正文及底部责任声明互不遮挡。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    },
+    {
+      "file": "slide-07.png",
+      "sha256": "b107478e1af5da7f4764e6347adb4e79730ccda3468ff173bf30ceff65a83d4d",
+      "page": 7,
+      "png_sha256": "b107478e1af5da7f4764e6347adb4e79730ccda3468ff173bf30ceff65a83d4d",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "两周内容上下对齐，说明行距充足；质量条件和非实测声明完整，页面下方留白充分。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    },
+    {
+      "file": "slide-08.png",
+      "sha256": "81e8c5b96c5c9ec8bfb74daf67e8eec0b07044ff0750bf37cb0ee6a7b9fa0892",
+      "page": 8,
+      "png_sha256": "81e8c5b96c5c9ec8bfb74daf67e8eec0b07044ff0750bf37cb0ee6a7b9fa0892",
+      "width": 1600,
+      "height": 900,
+      "status": "passed",
+      "visual_observation": "结束页主标题两行，记录要素一行，复用提醒一行；全部中文清楚，文字未碰画布边缘。",
+      "findings": [],
+      "checks": {
+        "chinese_readability": "pass",
+        "content_coverage": "pass",
+        "overflow": "none observed",
+        "unexpected_line_breaks": "none observed",
+        "alignment": "pass",
+        "occlusion": "none observed"
+      }
+    }
+  ]
+}

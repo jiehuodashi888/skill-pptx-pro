@@ -1,0 +1,598 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "ce63ee05b18138a8d7df05fdef21d49fdb3e1192095b7823c234376ac65ee8b3",
+    "file_count": 8,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "aaf3b55c70aa66ac13084599c3862fae76f774313e91fb6f1d0086702e0b2846"
+      },
+      {
+        "file": "02_tasks.svg",
+        "sha256": "63420a88e143934845b06f3c6cc23b3b600ec65a9d97ba2e19441b9f5c5e15aa"
+      },
+      {
+        "file": "03_workflow.svg",
+        "sha256": "b14995764e7218baf1345954f04a6c5ec0e8c045578f44f8a4429197413426a2"
+      },
+      {
+        "file": "04_prompt.svg",
+        "sha256": "018112331efdbcafb832528692f14d367d2a8e47f339a2ae4a5c8137f00bcdae"
+      },
+      {
+        "file": "05_comparison.svg",
+        "sha256": "576d2e344f477e7861d763d5d9297790562591e4059c01b12619ef4adef95efa"
+      },
+      {
+        "file": "06_review.svg",
+        "sha256": "1c2fea947294697bd92b9786cdd903da1963648b726896b0ed4f228b53e62284"
+      },
+      {
+        "file": "07_trial.svg",
+        "sha256": "00fa4a95f72a81244d5ea39573a7f1095e87aa45999b1670a91e0f4b38a4c1da"
+      },
+      {
+        "file": "08_action.svg",
+        "sha256": "70e3492ef1430d838c6f0c32c845438b11a7fb9f08992f71747e799de960652c"
+      }
+    ]
+  },
+  "summary": {
+    "total": 8,
+    "passed": 8,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {},
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 8,
+    "totals": {
+      "text_elements": 86,
+      "image_placements": 0,
+      "icons": 0,
+      "svg_geometry_elements": 20,
+      "preset_shapes": 0,
+      "page_frame_elements": 8,
+      "marker_uses": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 0,
+      "icons": 0,
+      "presets": 0,
+      "charts": 0,
+      "tables": 0,
+      "formulas": 0,
+      "inline_emphasis_runs": 0,
+      "gradient_uses": 0,
+      "filter_uses": 0,
+      "text_effects": 0
+    },
+    "relationship_pages": 6,
+    "geometry_elements": {
+      "circle": 5,
+      "ellipse": 0,
+      "line": 4,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 11
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 0
+    },
+    "image_page_max_frame_share_range": []
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 4,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 4,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "aaf3b55c70aa66ac13084599c3862fae76f774313e91fb6f1d0086702e0b2846"
+    },
+    {
+      "file": "02_tasks.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\02_tasks.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "63420a88e143934845b06f3c6cc23b3b600ec65a9d97ba2e19441b9f5c5e15aa"
+    },
+    {
+      "file": "03_workflow.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\03_workflow.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 5,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "b14995764e7218baf1345954f04a6c5ec0e8c045578f44f8a4429197413426a2"
+    },
+    {
+      "file": "04_prompt.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\04_prompt.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 5
+      },
+      "passed": true,
+      "source_sha256": "018112331efdbcafb832528692f14d367d2a8e47f339a2ae4a5c8137f00bcdae"
+    },
+    {
+      "file": "05_comparison.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\05_comparison.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 9,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 2,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 9,
+        "tspan_elements": 6
+      },
+      "passed": true,
+      "source_sha256": "576d2e344f477e7861d763d5d9297790562591e4059c01b12619ef4adef95efa"
+    },
+    {
+      "file": "06_review.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\06_review.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 0
+      },
+      "passed": true,
+      "source_sha256": "1c2fea947294697bd92b9786cdd903da1963648b726896b0ed4f228b53e62284"
+    },
+    {
+      "file": "07_trial.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\07_trial.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 11,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 11,
+        "tspan_elements": 4
+      },
+      "passed": true,
+      "source_sha256": "00fa4a95f72a81244d5ea39573a7f1095e87aa45999b1670a91e0f4b38a4c1da"
+    },
+    {
+      "file": "08_action.svg",
+      "path": "C:\\Users\\WenXinran\\Documents\\Codex\\2026-11-01\\github-plugin-github-openai-curated-remote\\outputs\\ai-work_ppt169_20261102\\svg_output\\08_action.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 5,
+          "images": {
+            "placements": 0,
+            "files": [],
+            "max_frame_share": 0.0
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 1,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 0,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial"
+        ],
+        "text_elements": 5,
+        "tspan_elements": 2
+      },
+      "passed": true,
+      "source_sha256": "70e3492ef1430d838c6f0c32c845438b11a7fb9f08992f71747e799de960652c"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F7F9FC"/>
+<g id="title" data-pptx-bounds="64 48 1152 92" fill="#172B4D" font-size="44" font-weight="bold"><text x="64" y="104">一条可执行的提示词</text></g>
+<g id="components" data-pptx-bounds="64 188 270 410" fill="#2463EB" font-size="34" font-weight="bold"><text x="64" y="238">任务</text><text x="64" y="318">材料</text><text x="64" y="398">输出格式</text><text x="64" y="478">约束</text><text x="64" y="558">验收标准</text></g>
+<g id="example" data-pptx-bounds="380 188 836 410" fill="#172B4D"><rect x="380" y="188" width="836" height="410" fill="#EAF0FC"/><text x="414" y="238"><tspan x="414" dy="0">把给定会议记录整理为待办清单。</tspan><tspan x="414" dy="80">依据：本次提供的会议记录。</tspan><tspan x="414" dy="80">列出事项、负责人、截止时间。</tspan><tspan x="414" dy="80">仅用原文事实；缺失项标为“待确认”。</tspan><tspan x="414" dy="80">检查每个事项是否能追溯到原文。</tspan></text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 654 1152 34" fill="#53657D" font-size="20"><text x="64" y="678">提示词示例 · 可按任务调整</text><text x="1180" y="678">04</text></g>
+</svg>

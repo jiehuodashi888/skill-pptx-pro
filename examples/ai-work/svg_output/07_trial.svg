@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="content">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#F7F9FC"/>
+<g id="title" data-pptx-bounds="64 48 1152 92" fill="#172B4D" font-size="44" font-weight="bold"><text x="64" y="104">两周试用安排</text></g>
+<g id="week-one" data-pptx-bounds="64 190 520 265" fill="#172B4D"><text x="64" y="240" font-size="34" font-weight="bold" fill="#2463EB">第一周</text><text x="64" y="316" font-size="34">选择一个重复任务</text><text x="64" y="382"><tspan x="64" dy="0">保留原流程记录</tspan><tspan x="64" dy="46">明确什么结果算合格</tspan></text></g>
+<g id="week-two" data-pptx-bounds="660 190 556 265" fill="#172B4D"><text x="660" y="240" font-size="34" font-weight="bold" fill="#2463EB">第二周</text><text x="660" y="316" font-size="34">比较试用结果</text><text x="660" y="382"><tspan x="660" dy="0">观察耗时、返工和可用性</tspan><tspan x="660" dy="46">决定是否保留这一做法</tspan></text></g>
+<g id="quality-first" data-pptx-bounds="64 500 1152 108" fill="#172B4D"><line x1="64" y1="502" x2="1216" y2="502" stroke="#C7D3E3"/><text x="64" y="554">只有通过质量检查的输出，才纳入比较。</text><text x="64" y="590" font-size="20" fill="#53657D">建议安排，不是实测结果；可按团队节奏调整。</text></g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 654 1152 34" fill="#53657D" font-size="20"><text x="64" y="678">试用计划 · 情景示例</text><text x="1180" y="678">07</text></g>
+</svg>

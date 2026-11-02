@@ -1,0 +1,10 @@
+{
+  "id": "general",
+  "label": "通用演示",
+  "audience": "Determine from the current request",
+  "objective": "Communicate a supported central message",
+  "sections": ["Context", "Main message", "Evidence", "Implications", "Next steps"],
+  "required_evidence": ["Trace factual claims to supplied material", "Label assumptions and missing data"],
+  "acceptance": ["One primary message per page", "Retain units and source context", "Adapt the sequence to the audience"],
+  "density": "balanced"
+}

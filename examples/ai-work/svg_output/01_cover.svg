@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" font-family="Microsoft YaHei, Arial" font-size="28" data-pptx-page-role="cover">
+<rect id="background" data-pptx-role="background" width="1280" height="720" fill="#172B4D"/>
+<g id="title" data-pptx-bounds="64 110 1152 240" fill="#FFFFFF" font-size="64" font-weight="bold">
+<text x="64" y="190"><tspan x="64" dy="0">团队如何用 AI</tspan><tspan x="64" dy="94">提升日常工作效率</tspan></text>
+</g>
+<g id="message" data-pptx-bounds="64 402 1152 154" fill="#FFFFFF" font-size="34">
+<text x="64" y="446"><tspan x="64" dy="0">把重复工作交给草稿流程</tspan><tspan x="64" dy="64">把判断留给人</tspan></text>
+</g>
+<g id="footer" data-pptx-role="footer" data-pptx-bounds="64 622 1152 40" fill="#FFFFFF" font-size="20"><text x="64" y="648">通用工作方法 · 原创演示案例</text><text x="1180" y="648">01</text></g>
+</svg>
