@@ -14,6 +14,11 @@ different installed engine silently.
 ## Prepare the request
 
 Read [usage](references/usage.md) for CLI syntax and configuration contracts.
+For a new deck, major redesign, template extraction or profile/style change, read
+[Specs and SDD](references/spec-sdd.md). Create the job specification with
+`spec-init`; do not begin generation until `sdd-check` reports
+`ready_to_generate: true`. Minor, already-approved corrections may be recorded
+in the existing job specification without creating a new repository spec.
 Use a callable local Python 3.10+ executable; never assume a developer's path.
 Run `scripts/personal.py list` to discover bundled profiles and styles. If the
 user supplies a private pack, pass its explicit path with `--pack-root`.
@@ -31,6 +36,11 @@ and source hashes in a new job directory. The initial `outline.md` is an empty
 planning artifact, not completed content. Read the actual local source files.
 Record brand constraints and explicit template workspace paths in the job
 alongside the request. Do not infer a template path from a style label.
+
+Treat the approved job `spec.md` as the delivery contract. Keep its source,
+audience, page narrative, visual constraints and acceptance criteria aligned
+with the engine design brief. When scope changes materially, return the spec to
+draft and get it approved again before continuing.
 
 ## Local-only policy
 

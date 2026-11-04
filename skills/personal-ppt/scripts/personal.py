@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Personal PPT - Profile and job preparation tools.
 
-Usage: python personal.py list | resolve | init | doctor
+Usage: python personal.py list | resolve | init | spec-init | sdd-check | doctor
 Examples: python personal.py resolve --profile report --style clean
 Dependencies: Python standard library. See ../references/usage.md.
 """
@@ -117,6 +117,147 @@ def init_job(output, title, selection, sources):
     return {'job': str(output), 'status': request['status']}
 
 
+SPEC_HEADINGS = (
+    'Intent', 'Audience and use', 'Inputs and evidence', 'Deck plan',
+    'Visual direction', 'Acceptance criteria', 'Decisions and open questions',
+    'Delivery and validation',
+)
+
+UNRESOLVED_SPEC_FIELDS = (
+    'Business or communication outcome:',
+    'Core message the audience should retain:',
+    'Out of scope:',
+    'Presentation setting, duration and presenter:',
+    'Language and accessibility requirements:',
+    'Target page count:',
+    'Per-page title, takeaway and supporting evidence:',
+    'Brand constraints and approved template path, if any:',
+    'Layout or visual motifs to preserve:',
+    'Redesign freedom and any elements that must remain native/editable:',
+    'Deliverables and destination:',
+    'Known limitations or waived checks:',
+)
+
+
+def spec_template(request):
+    """Build the human-authored contract for a single deck job."""
+    profile = request['selection']['profile']
+    style = request['selection']['style']
+    sources = request.get('sources', [])
+    source_lines = '\n'.join(f'- `{record["path"]}` (SHA256: `{record["sha256"]}`)'
+                             for record in sources) or '- No local sources supplied.'
+    sections = '\n'.join(f'- {section}' for section in profile.get('sections', []))
+    evidence = '\n'.join(f'- {item}' for item in profile.get('required_evidence', []))
+    acceptance = '\n'.join(f'- {item}' for item in profile.get('acceptance', []))
+    return f'''# Deck Specification: {request["title"]}
+
+Status: draft
+
+This document is the source of truth for this deck job. Complete the sections
+below, review it with the requester, then change `Status: draft` to
+`Status: approved` before generation. A material change after approval should
+return the status to `draft` and record the reason under Decisions.
+
+## Intent
+
+- Business or communication outcome:
+- Core message the audience should retain:
+- Out of scope:
+
+## Audience and use
+
+- Primary audience: {profile.get("audience", "")}
+- Presentation setting, duration and presenter:
+- Language and accessibility requirements:
+
+## Inputs and evidence
+
+{source_lines}
+
+Required evidence from the selected profile:
+{evidence or '- No additional profile requirement.'}
+
+Facts without a local source must be marked as assumptions, not presented as verified.
+
+## Deck plan
+
+Selected profile: `{profile.get("id", "")}` — {profile.get("label", "")}
+
+Suggested sections; edit into a page-level narrative before generation:
+{sections}
+
+- Target page count:
+- Per-page title, takeaway and supporting evidence:
+
+## Visual direction
+
+Selected style: `{style.get("id", "")}` — {style.get("label", "")}
+
+- Brand constraints and approved template path, if any:
+- Layout or visual motifs to preserve:
+- Redesign freedom and any elements that must remain native/editable:
+
+## Acceptance criteria
+
+{acceptance or '- Define observable acceptance criteria.'}
+
+- Every page has a clear takeaway and readable hierarchy.
+- Final PPTX has editable text and required speaker notes.
+- Page count, source handling and visual constraints are checked before delivery.
+
+## Decisions and open questions
+
+- Decision / owner / date:
+- Open question or explicitly accepted assumption:
+
+## Delivery and validation
+
+- Deliverables and destination:
+- Required checks: engine checks, PowerPoint render, `audit_pptx.py`, and page-by-page visual review.
+- Known limitations or waived checks:
+'''
+
+
+def init_spec(job):
+    job = Path(job).resolve()
+    request_path = job / 'request.json'
+    if not request_path.is_file():
+        raise ValueError(f'Missing job request: {request_path}')
+    spec_path = job / 'spec.md'
+    if spec_path.exists():
+        raise FileExistsError(f'Specification already exists; edit it instead: {spec_path}')
+    request = json.loads(request_path.read_text(encoding='utf-8'))
+    if not isinstance(request, dict) or not isinstance(request.get('selection'), dict):
+        raise ValueError(f'Invalid job request: {request_path}')
+    spec_path.write_text(spec_template(request), encoding='utf-8')
+    return {'job': str(job), 'spec': str(spec_path), 'status': 'draft'}
+
+
+def check_sdd(job):
+    """Check whether the job's specification is ready to enter generation."""
+    job = Path(job).resolve()
+    spec_path = job / 'spec.md'
+    if not spec_path.is_file():
+        raise ValueError(f'Missing specification: {spec_path}. Run spec-init first.')
+    text = spec_path.read_text(encoding='utf-8')
+    status = re.search(r'^Status:\s*(.+?)\s*$', text, re.MULTILINE)
+    missing = [heading for heading in SPEC_HEADINGS if f'## {heading}' not in text]
+    unresolved = [field for field in UNRESOLVED_SPEC_FIELDS
+                  if re.search(r'^-\s*' + re.escape(field) + r'\s*$', text, re.MULTILINE)]
+    approved = bool(status and status.group(1).strip().lower() == 'approved')
+    return {
+        'job': str(job), 'spec': str(spec_path),
+        'status': status.group(1).strip() if status else 'missing',
+        'required_sections_present': not missing,
+        'missing_sections': missing,
+        'unresolved_fields': unresolved,
+        'ready_to_generate': approved and not missing and not unresolved,
+        'next_step': ('Proceed with the selected engine workflow and retain this specification with the job.'
+                      if approved and not missing and not unresolved else
+                      'Complete the specification, review it with the requester, then set Status: approved.'),
+    }
+
+
 def doctor():
     engine = engine_path()
     modules = {name: importlib.util.find_spec(name) is not None
@@ -157,6 +298,9 @@ def main(argv=None):
             p.add_argument('--output', required=True, type=Path)
             p.add_argument('--title', required=True)
             p.add_argument('--source', action='append', default=[], type=Path)
+    for command in ('spec-init', 'sdd-check'):
+        p = sub.add_parser(command)
+        p.add_argument('--job', required=True, type=Path)
     sub.add_parser('doctor')
     args = parser.parse_args(argv)
     try:
@@ -166,6 +310,10 @@ def main(argv=None):
             roots = [SKILL_ROOT] + ([args.pack_root] if args.pack_root else [])
             result = {kind: sorted({p.stem for root in roots for p in (root / kind).glob('*.json')})
                       for kind in ('profiles', 'styles')}
+        elif args.command == 'spec-init':
+            result = init_spec(args.job)
+        elif args.command == 'sdd-check':
+            result = check_sdd(args.job)
         else:
             result = resolve(args.profile, args.style, args.pack_root)
             if args.command == 'init':

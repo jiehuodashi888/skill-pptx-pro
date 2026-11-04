@@ -10,6 +10,8 @@ python personal.py list
 python personal.py doctor
 python personal.py resolve --profile report --style clean
 python personal.py init --profile learning-sharing --style editorial --title "Team learning" --source /local/facts.md --output /local/jobs/learning-01
+python personal.py spec-init --job /local/jobs/learning-01
+python personal.py sdd-check --job /local/jobs/learning-01
 python personal.py resolve --pack-root /local/company-pack --profile incident-review --style clean
 ```
 
@@ -46,6 +48,15 @@ fonts are installed. Private styles can extend bundled styles.
 `request.json` embeds resolved configuration and local source SHA256 hashes.
 It does not copy source content. Source paths are host-local and must be rebound
 when migrating a job. The release tool never packages jobs or private packs.
+
+## Specs and SDD
+
+For a new deck, major redesign, template extraction, or profile/style update,
+use the job-level SDD workflow in [spec-sdd.md](spec-sdd.md). `spec-init` writes
+the reviewable `spec.md` beside `request.json`; after completing and approving
+it, `sdd-check` must return `ready_to_generate: true` before generation starts.
+Repository-level decisions live in the root `specs/` directory. Keep job specs
+that include company content in the private job location.
 
 ## Installation and migration
 
